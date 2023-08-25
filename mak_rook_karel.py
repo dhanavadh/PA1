@@ -13,38 +13,62 @@ def main():
              turn_left()
              move()
              turn_right()
-        put_beeper()
-        put_beeper_odd()
-        if front_is_clear():
-             turn_left()
-        while front_is_clear() and left_is_blocked():
-            move()
-            turn_right()
-            put_beeper_even()
-        if front_is_clear():
-             turn_left()
-             move()
-             turn_right()
-        put_beeper()
-        put_beeper_odd()
-        if front_is_clear():
-             turn_left()
-        while front_is_clear() and left_is_blocked():
-            move()
-            turn_right()
-            put_beeper_even()
+             put_beeper()
+             put_beeper_odd()
+             if front_is_clear():
+                turn_left()
+                while front_is_clear() and left_is_blocked():
+                    move()
+                    turn_right()
+                    put_beeper_even()
         if front_is_clear():
              turn_left()
              move()
              turn_right()
-        put_beeper()
-        put_beeper_odd()
+             put_beeper()
+             put_beeper_odd()
+             if front_is_clear():
+                turn_left()
+                while front_is_clear() and left_is_blocked():
+                    move()
+                    turn_right()
+                    put_beeper_even()
         if front_is_clear():
              turn_left()
-             if front_is_clear() and left_is_blocked():
-                move()
-                turn_right()
-                put_beeper_even()
+             move()
+             turn_right()
+             put_beeper()
+             put_beeper_odd()
+             if front_is_clear():
+                turn_left()
+                if front_is_clear() and left_is_blocked():
+                    move()
+                    turn_right()
+                    put_beeper_even()
+        # if front_is_clear():
+        #      turn_left()
+        #      move()
+        #      turn_right()
+        # put_beeper()
+        # put_beeper_odd()
+        # if front_is_clear():
+        #      turn_left()
+        # while front_is_clear() and left_is_blocked():
+        #     move()
+        #     turn_right()
+        #     put_beeper_even()
+        # if front_is_clear():
+        #      turn_left()
+        #      move()
+        #      turn_right()
+        # put_beeper()
+        # put_beeper_odd()
+        # if front_is_clear():
+        #      turn_left()
+        #      if front_is_clear() and left_is_blocked():
+        #         move()
+        #         turn_right()
+        #         put_beeper_even()
                  
         # if front_is_clear() :
         #     turn_left()
